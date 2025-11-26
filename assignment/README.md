@@ -10,6 +10,7 @@ Some libraries used in this project:
 
 # How to run
 ```bash
+cd assignment
 npm install
 npm run dev
 ```

@@ -1,5 +1,4 @@
 import { useProjections } from "./hooks/useProjections";
-import "./App.css";
 import { Chart, Loader, ErrorPage } from "./component";
 
 function App() {
