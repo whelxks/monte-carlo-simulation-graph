@@ -7,6 +7,13 @@
     "module": "ESNext",
     "types": ["vite/client"],
     "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    /* to import dayjs */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",

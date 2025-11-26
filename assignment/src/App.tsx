@@ -9,7 +9,7 @@ function App() {
   if (error) return <ErrorPage error={error || new Error('Unknown error')} />
 
   return (
-    <div className="flex flex-col gap-5 padding-5">
+    <div className="flex flex-col py-3 px-4">
       <Chart data={data} />
     </div>
   );
